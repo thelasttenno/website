@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<!-- Hello This is a Test Site made By TheLastTenno -->
-<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- Hello This is a Test Site made By TheLastTenno -->
+  <head>
     <title>(Blog)Tennos Test Space</title>
     <meta charset="utf-8">
-</head>
-<!-- main content body -->
-<body>
-  <header>
-    <h1>Tennos Test Space</h1> <!--Site Title -->
-    <img src="photos\kineticart.jpg"
-      alt="kenetic art"
-      width="400"
-      height="300" />
-    <ol> <!-- this will be page navigation -->
-      <li><h3>Page One</h3>
-        <a href="index.html">
-          Home
-        </a>
-      </li>
-      <li><h3>Page Two</h3>
-        <a href="About.html">
-          About This Site
-        </a>
-      </li>
-      <li><h3>Page Three</h3>
-        <a href="Blog.html">
-          Personal Blog
-        </a>
-      </li>
-      <li><h3>Page Four</h3>
-        <a href="404">
-          TBD
-        </a>
-      </li>
-      <li><h3>Page Five</h3>
-        <a href="404">
-          TBD
-        </a>
-      </li>
-    </ol>
-  </header>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <!-- main content body -->
+  <body>
+      <!-- site title and navigation -->
+    <header>
+      <h1>Tennos Test Space</h1> <!--Site Title -->
+      <img src="photos\kineticart.jpg"
+        alt="kenetic art"
+        width="400"
+        height="300" />
+        <div id="menu-outer">
+          <div class="table">
+            <ul id="horizontal-list"><!-- this will be page navigation -->
+              <li>
+                <h3>Page One</h3>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <h3>Page Two</h3>
+                <a href="About.html">About This Site</a>
+              </li>
+              <li>
+                <h3>Page Three</h3>
+                <a href="#Blog">Personal Blog</a>
+              </li>
+              <li>
+                <h3>Page Four</h3>
+                <a href="404">TBD</a>
+              </li>
+              <li>
+                <h3>Page Five</h3>
+                <a href="404">TBD</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </header>
+  <!-- main content  -->
+    <section id=Blog>
+      <h1>WORK IN PROGRESS, MAIN CONTENT ON <a href="About.html">ABOUT</a> PAGE<h1>
+    </section>
 
-  <section>
-    <h1>WORK IN PROGRESS, MAIN CONTENT ON <a href="About.html">ABOUT</a> PAGE<h1>
-  </section>
+    <footer> <!-- footer will be used for self premotion -->
+      <h2>My Other Projects<h2>
+      <div id="menu-outer">
+        <div class="table">
+          <ul id="horizontal-list">
+            <li>
+              <a href="https://youtu.be/wOM2QA31Dys" target="_blank">Plex Server Setup</a>
+            </li>
+            <li>
+              <a href="https://fiit289588606.wordpress.com/author/thelasttenno/" target="_blank">My Word Press Site</a>
+            </li>
+            <li>
+              <a href="\404" target="_blank">TBD</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h4>This site made by <a href="mailto:thelasttennno@gmail.com" target="_blank">TheLastTenno</a></h4>
+      <a href="#header"> Back to top </a>
+    </footer>
 
-  <footer> <!-- footer will be used for self premotion -->
-    <h5>My Other Projects<h5>
-    <ul>
-      <li><a href="https://youtu.be/wOM2QA31Dys" target="_blank">
-        Plex Server Setup
-      </a></li>
-      <li><a href="https://fiit289588606.wordpress.com/author/thelasttenno/" target="_blank">
-        My Word Press Site
-      </a></li>
-      <li><a href="\404" target="_blank">
-        TBD
-      </a></li>
-    </ul>
-    <h4>This site made by <a href="mailto:thelasttennno@gmail.com" target="_blank">TheLastTenno
-    </a></h4>
-    <a href="#header">
-      Back to top
-    </a>
-  </footer>
-</body>
+  </body>
+
 </html>
