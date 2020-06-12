@@ -5,8 +5,6 @@ body {
   font-family: Arial;
   color: black;
 	/* font-size: 34px; */
-	-webkit-text-stroke: .1px white;
-	-webkit-text-fill-color: black;
   text-align: center;
   zoom:250%;
 }
@@ -45,8 +43,8 @@ pre {
 }
 a {
   color: black;
-	-webkit-text-stroke: .1px white;
-	-webkit-text-fill-color: black;
+	/* -webkit-text-stroke: .5px white;
+	-webkit-text-fill-color: black; */
 }
 
 #menu-outer {
