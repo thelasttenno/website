@@ -9,6 +9,22 @@ body {
   zoom:250%;
 }
 
+header {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#premotion {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 h1 {
   font-size: 30px;
   font-weight: 700;
@@ -60,8 +76,20 @@ a {
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
-	padding-top: 20px;
+	padding-top: 00px;
 	}
 ul#horizontal-list li {
 	display: inline-block;
+}
+#WIP {
+  color: purple;
+}
+#projects {
+  color: Orange;
+}
+#Title {
+  color: Green;
+}
+#pages {
+  color: Orange
 }
