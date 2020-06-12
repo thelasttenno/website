@@ -2,21 +2,52 @@ body {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(46,46,177,1) 35%, rgba(0,212,255,1) 100%);
   font-family: 'Arimo', sans-serif;
-  font-family: 'Open Sans', sans-serif;
   font-family: Arial;
   color: black;
 	/* font-size: 34px; */
-	-webkit-text-stroke: .3px white;
+	-webkit-text-stroke: .1px white;
 	-webkit-text-fill-color: black;
   text-align: center;
+  zoom:250%;
 }
 
-h1 { font-size: 30px; font-weight: 700; line-height: 30px; }
-h2 { font-size: 25px; font-weight: 700; line-height: 25px; }
-h3 { font-size: 14px; font-weight: 700; line-height: 15.4px; }
-p { font-size: 14px;  font-weight: 400; line-height: 20px; }
-blockquote { font-size: 21px; font-weight: 400; line-height: 30px; }
-pre { font-size: 13px; font-weight: 400; line-height: 18.5714px; }
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+a {
+  color: black;
+	-webkit-text-stroke: .1px white;
+	-webkit-text-fill-color: black;
+}
 
 #menu-outer {
 	height: 84px;
@@ -33,6 +64,6 @@ ul#horizontal-list {
 	list-style: none;
 	padding-top: 20px;
 	}
-	ul#horizontal-list li {
-		display: inline-block;
-	}
+ul#horizontal-list li {
+	display: inline-block;
+}
