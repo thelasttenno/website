@@ -57,12 +57,18 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }
-a {
-  color: black;
-	/* -webkit-text-stroke: .5px white;
-	-webkit-text-fill-color: black; */
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: red;
 }
-
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: grey;
+}
 #menu-outer {
 	height: 84px;
 	background: url(images/bar-bg.jpg) repeat-x;
