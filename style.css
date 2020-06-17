@@ -1,3 +1,8 @@
+* {
+  margin: 1;
+  line-height: 2;
+  box-sizing: border-box;
+}
 body {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(46,46,177,1) 35%, rgba(0,212,255,1) 100%);
@@ -6,24 +11,24 @@ body {
   color: black;
 	/* font-size: 34px; */
   text-align: center;
-  zoom:200%;
+  zoom:180%;
+  margin: 50px;
 }
-
 header {
   padding-top: 0px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 section {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-#premotion {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
 footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.premotion {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 h1 {
   font-size: 30px;
@@ -57,21 +62,20 @@ pre {
   font-weight: 400;
   line-height: 18.5714px;
 }
+/* img {
+  width: 400px;
+} */
 a:link,
 a:focus,
 a:active {
   text-decoration: none;
   color: red;
 }
-a:hover {
-  text-decoration: underline;
-}
 a:visited {
   color: black;
 }
-#menu-outer {
+.menu-outer {
 	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
 }
 
 .table {
@@ -79,23 +83,84 @@ a:visited {
 	margin: 0 auto;
 }
 
-ul#horizontal-list {
+ul.horizontal-list {
 	min-width: 696px;
 	list-style: none;
 	padding-top: 00px;
 	}
-ul#horizontal-list li {
+ul.horizontal-list li {
 	display: inline-block;
+  text-align: center;
 }
-#WIP {
+.WIP {
   color: purple;
 }
-#projects {
+.projects {
   color: Orange;
 }
-#Title {
+.Title {
   color: Green;
+  text-decoration: underline;
 }
-#pages {
+.pages {
   color: Orange
+}
+.projects {
+  text-decoration: underline;
+}
+.horizontal-list h3 {
+  text-decoration: underline;
+}
+.navi-box {
+	background: url(photos/bar-bg.jpg);
+  background-repeat: repeat;
+}
+.shadow{
+  -webkit-box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.75);
+  border-radius: 45px 45px 45px 45px;
+  -moz-border-radius: 45px 45px 45px 45px;
+  -webkit-border-radius: 45px 45px 45px 45px;
+  border: 1.5px double #000000;
+}
+li:hover {
+  -webkit-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+}
+.back-to-top:hover {
+  -webkit-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+}
+.navi-button {
+  padding: 0px 15px;
+}
+.text-block {
+  margin: 0px 60px;
+}
+.container {
+  max-width: 800px;
+  margin: 1 auto;
+}
+/* div {
+  margin: 0 auto;
+} */
+.box {
+  background-image: url(photos/webb-dark.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  height: 150px;
+  background-image: url(photos/abstract.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner1 {
+  height: 150px;
+  background-image: url(photos/markus-spiske.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

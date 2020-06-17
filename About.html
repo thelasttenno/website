@@ -14,74 +14,118 @@
   <body>
       <!-- site title and navigation -->
       <header>
-        <h1 id="Title">Tennos Test Space</h1> <!--Site Title -->
-        <img src="photos\kineticart.jpg"
-          alt="kenetic art"
-          width="400"
-          height="300" />
-          <div id="menu-outer">
+        <!--Site Title -->
+        <div class="text-block">
+          <h1>
+            <span class="Title navi-button shadow">Tennos Test Space </span>
+          </h1>
+        </div>
+        <div class="banner1 shadow"></div>
+        <!-- this will be page navigation -->
+          <div class="menu-outer">
             <div class="table">
-              <ul id="horizontal-list"><!-- this will be page navigation -->
-                <li>
-                  <h3>Page One</h3>
-                  <a href="index.html">Home</a>
+              <ul class="horizontal-list">
+                <li class="shadow navi-button navi-box">
+                  <h3 class=pages>Page One</h3>
+                  <a href="#index">Home</a>
                 </li>
-                <li>
-                  <h3>Page Two</h3>
-                  <a href="#about">About This Site</a>
+                <li class="shadow navi-button navi-box">
+                  <h3 class=pages>Page Two</h3>
+                  <a href="About.html">About This Site</a>
                 </li>
-                <li>
-                  <h3>Page Three</h3>
+                <li class="shadow navi-button navi-box">
+                  <h3 class=pages>Page Three</h3>
                   <a href="Blog.html">Personal Blog</a>
                 </li>
-                <li>
-                  <h3>Page Four</h3>
+                <li class="shadow navi-button navi-box">
+                  <h3 class=pages>Page Four</h3>
                   <a href="404">TBD</a>
                 </li>
-                <li>
-                  <h3>Page Five</h3>
-                  <a href="404">TBD</a>
+                <li class="shadow navi-button navi-box">
+                  <a href="404">
+                    <h3 class=pages>
+                      Page Five
+                    </h3>
+                    <span>
+                      TBD
+                    </span>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
       </header>
 <!-- main content  -->
-    <section id="about">
-      <img src="photos\redlights.jpg"
+  <div class="container">
+    <section class="about">
+      <img class="shadow" src="photos\redlights.jpg"
         alt="trippy black wall"
         width="400"
         height="300" />
-      <h2>About</h2> <!-- this is my about section needs MultiMedia and full write up -->
-      <p>This site is a schoool project and personal blog</p>
-      <img src="photos\flatscreen and dude.jpg"
+    </section>
+    <section class="">
+      <div class="text-block shadow box">
+        <div class="WIP">
+          <!-- this is my about section needs MultiMedia and full write up -->
+          <h2>About</h2>
+          <p>This site is a schoool project and personal blog</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <img class="shadow" src="photos\flatscreen and dude.jpg"
         alt="buisness presentaion"
         width="400"
         height="300" />
     </section>
-
-    <section id=premotion> <!-- footer will be used for self premotion -->
-      <div id="menu-outer">
+  </div>
+  <!-- footer will be used for self premotion -->
+    <section class="premotion">
+      <div class="menu-outer">
         <div class="table">
-          <ul id="horizontal-list">
-            <h2 id="projects">My <Strong>Other</strong> Projects<h2>
-            <li>
-              <a href="https://youtu.be/wOM2QA31Dys" target="_blank">Plex Server Setup</a>
-            </li>
-            <li>
-              <a href="https://fiit289588606.wordpress.com/author/thelasttenno/" target="_blank">My Word Press Site</a>
-            </li>
-            <li>
-              <a href="\404" target="_blank">TBD</a>
-            </li>
+          <ul class="horizontal-list">
+            <div class="text-block">
+            <h2 class="projects shadow navi-box">My <Strong>Other</strong> Projects</h2>
+            </div>
+            <a href="https://youtu.be/wOM2QA31Dys" target="_blank">
+              <li class="shadow navi-button navi-box">
+                <span>
+                  Plex Server Setup
+                </span>
+              </li>
+            </a>
+            <a href="https://fiit289588606.wordpress.com/author/thelasttenno/" target="_blank">
+              <li class="shadow navi-button navi-box">
+                <span>
+                  My Word Press Site
+                </span>
+              </li>
+            </a>
+            <a href="\404" target="_blank">
+              <li class="shadow navi-button navi-box">
+                <span>
+                  TBD
+                </span>
+              </li>
+            </a>
           </ul>
         </div>
       </div>
     </section>
 
     <footer>
-      <h4>This site made by <a href="mailto:thelasttennno@gmail.com" target="_blank">TheLastTenno</a></h4>
-      <a href="#Title"> Back to top </a>
+      <div class="banner shadow"></div>
+      <h4>
+        <a href="mailto:thelasttennno@gmail.com" target="_blank">
+          <span class="back-to-top shadow navi-button navi-box">This site made by TheLastTenno
+          </span>
+        </a>
+      </h4>
+      <a class="back-to-top shadow navi-button navi-box" href="#Title">
+        <span>
+          Back to top
+        </span>
+      </a>
     </footer>
   </body>
 </html>
